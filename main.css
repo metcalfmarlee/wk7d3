@@ -89,11 +89,126 @@ body {
   .tabbed-nav__group {
     display: block;
   }
-  
+
   .tabbed-nav__link {
     display: block;
   }
 }
+
+.boards__container {
+  margin: 0 auto;
+  padding: 32px;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.boards__sidebar {
+  background-color: #6C547B;
+  border-radius: 3px;
+  margin: 0 32px 32px 0;
+  padding: 0 20px 32px 20px;
+  max-height: 130px;
+  max-width: 180px;
+  width: 20%;
+
+}
+
+.boards__sidebar-content > .title, a {
+  color: white;
+}
+
+.boards__sidebar-content > .description {
+  color: lightblue;
+}
+
+.boards__group {
+  border: 1px solid red;
+  flex-wrap: wrap;
+  width: 80%;
+  display: flex;
+}
+
+.boards__board {
+
+  background-color: hotpink;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-weight: bold;
+  height: 100px;
+  margin: 0 8px 16px;
+  max-width: 250px;
+  width: 25%;
+  padding: relative;
+  color: white;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+.boards__board1 {
+  border: 1px solid greenyellow;
+  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+  display: inline-block;
+  background-size: cover;
+}
+
+.boards__board2 {
+  border: 1px solid greenyellow;
+  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+}
+
+.boards__board3 {
+  border: 1px solid greenyellow;
+  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+}
+
+.boards__board4 {
+  border: 1px solid greenyellow;
+  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+}
+
+.boards__board5 {
+  border: 1px solid greenyellow;
+  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+}
+
+.boards__board6 {
+  border: 1px solid greenyellow;
+  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+}
+
+.boards__board7 {
+  border: 1px solid greenyellow;
+  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+}
+
+.boards__board8 {
+  border: 1px solid greenyellow;
+  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+}
+
+.boards__board9 {
+  border: 1px solid greenyellow;
+  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+}
+
+.boards__board10 {
+  border: 1px solid greenyellow;
+  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Supplied CSS follows. */
 .header-nav__group {
   display: flex;
