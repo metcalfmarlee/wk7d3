@@ -14,7 +14,6 @@ body {
   padding: 4px;
   color: white;
   justify-content: space-between;
-  border: 1px solid red;
 }
 
 #alerts {
@@ -31,7 +30,6 @@ body {
   }
 }
 
-/* border: 1px solid red; */
 .team__container {
   background-color: #f4f5f7;
   padding: 32px;
@@ -112,7 +110,7 @@ body {
   max-height: 130px;
   max-width: 180px;
   width: 20%;
-
+  flex-basis: 220px;
 }
 
 .boards__sidebar-content > .title, a {
@@ -124,14 +122,12 @@ body {
 }
 
 .boards__group {
-  border: 1px solid red;
   flex-wrap: wrap;
   width: 80%;
   display: flex;
 }
 
 .boards__board {
-
   background-color: hotpink;
   border-radius: 3px;
   box-sizing: border-box;
@@ -147,56 +143,58 @@ body {
 }
 
 
-.boards__board1 {
-  border: 1px solid greenyellow;
-  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
-  display: inline-block;
-  background-size: cover;
+.board-1 {
+  background-image: url("./board-backgrounds/board-1-background.jpg");
+  background-size: contain;
 }
 
-.boards__board2 {
-  border: 1px solid greenyellow;
-  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+.board-2 {
+  background-image: url("./board-backgrounds/board-2-background.jpg");
 }
 
-.boards__board3 {
-  border: 1px solid greenyellow;
-  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+.board-3 {
+  background-image: url("./board-backgrounds/board-3-background.jpg");
 }
 
-.boards__board4 {
-  border: 1px solid greenyellow;
-  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+.board-4 {
+  background-image: url("./board-backgrounds/board-4-background.jpg");
 }
 
-.boards__board5 {
-  border: 1px solid greenyellow;
-  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+.board-5 {
+  background-image: url("./board-backgrounds/board-5-background.jpg");
 }
 
-.boards__board6 {
-  border: 1px solid greenyellow;
-  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+.board-6 {
+  background-image: url("./board-backgrounds/board-6-background.jpg");
 }
 
-.boards__board7 {
-  border: 1px solid greenyellow;
-  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+.board-7 {
+  background-image: url("./board-backgrounds/board-7-background.jpg");
 }
 
-.boards__board8 {
-  border: 1px solid greenyellow;
-  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+.board-8 {
+  background-image: url("./board-backgrounds/board-8-background.jpg");
 }
 
-.boards__board9 {
-  border: 1px solid greenyellow;
-  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+.board-9 {
+  background-image: url("./board-backgrounds/board-9-background.jpg");
 }
 
-.boards__board10 {
-  border: 1px solid greenyellow;
-  background-image: url("/Users/marleemetcalf/Desktop/AppAcademy/MODULES/Mod03/Wk07/D03/wk7d3/board-backgrounds/board-1-background.jpg");
+.board-10 {
+  background-image: url("./board-backgrounds/board-10-background.jpg");
+}
+
+@media screen and (min-width: 751px) and (max-width: 1280px) {
+  .boards__board {
+    width: 33%
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .boards__board {
+    max-width: unset;
+    width: 100%;
+  }
 }
 
 
